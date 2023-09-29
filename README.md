@@ -25,3 +25,20 @@ Este texto está en **_negrita y cursiva_**
     *Cuarto submenú
 + Quinta opción de lista desordenada
 + Sexta opción de lista desordenada
+
+
+
+<!-- esto de las triple comilla es para que no ejecute el codigo, simplemente que lo enseñe sin mas -->
+``` 
+<html>
+<head>
+
+</head>
+<body>
+    <p>Esto es un párrafo por eso una "p"
+</body>
+</html>
+```
+[Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
+
+src
