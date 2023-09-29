@@ -41,4 +41,4 @@ Este texto está en **_negrita y cursiva_**
 ```
 [Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
 
-src
+![Eso es una imagen del rial G Hasbulla](https://github.com/IvanMorillaTorres/ASIX1M4UF1_A3Apuntes/blob/main/hasbulla-money.gif "Titulo opcional de la imagen ")
