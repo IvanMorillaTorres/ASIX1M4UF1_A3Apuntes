@@ -39,6 +39,17 @@ Este texto está en **_negrita y cursiva_**
 </body>
 </html>
 ```
+
+<!-- Así se sube un enlace o link -->
 [Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
 
+<!-- Así se pone una imagen -->
 ![Eso es una imagen del rial G Hasbulla](https://github.com/IvanMorillaTorres/ASIX1M4UF1_A3Apuntes/blob/main/hasbulla-money.gif "Titulo opcional de la imagen ")
+
+
+|Primera col|Segunda col|Tercera col|
+|--------------|:------------:|---------:|
+|Col 2 es|Centrada|35€|
+|Col 3 es|Derecha|134€|
+|Estilo Cebra|Gris|Blanco|
+|Clase|ASIX1|M4|
