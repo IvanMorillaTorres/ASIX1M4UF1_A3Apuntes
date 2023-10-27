@@ -126,7 +126,7 @@ estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con e
 a parte de ol se puede hacer como Unorder list(ul).
 o si quiero hacer una lista dentro de otra lista seria lo mismo, haciendo un ol, con la otra lista añadida identada.
 como por ejemplo:
-
+```
 <ol>
     <li>
         
