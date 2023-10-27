@@ -85,46 +85,43 @@ la sintaxi basica es, <img href = ""> basicamente es , etiqueta atributo y infor
 
 
 Aqui definimos el tipo de pagina que hacemos para decirselo al navegador
-<!DOCTYPE html>
+```<!DOCTYPE html>```
 
-            Aqui definimos el idioma 
-            <html lang="en">
+Aqui definimos el idioma 
+```<html lang="en">```
 
-            Justo aqui empieza el encabezado de datos
-            <head>
+Justo aqui empieza el encabezado de datos
+``` <head>```
 
-                esta linea indica el set de caracteres.
-                <meta charset="UTF-8">
+esta linea indica el set de caracteres.
+```<meta charset="UTF-8">```
 
-                Esto simeple mente es para el ancho y demas de la pagina
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Esto simeple mente es para el ancho y demas de la pagina
+```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
 
-                esta linea de codigo es donde se pone el titulo que saldrá arriba en la pestaña de la pagina1
-                <title>Document</title>
+esta linea de codigo es donde se pone el titulo que saldrá arriba en la pestaña de la pagina1
+```<title>Document</title>```
 
-                y aqui acaba el encabezado como siempre acaban las etiquetas de una pagina con la barra"/"
-            </head>
+y aqui acaba el encabezado como siempre acaban las etiquetas de una pagina con la barra"/"
+```</head>```
+justo aqui empieza el body, que es el cuerpo de la pagina
+``` <body>```
+estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con ella escrita.
+```<p> </p>```
 
-            justo aqui empieza el body, que es el cuerpo de la pagina
-            <body>
-
-            <p>
-            estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con ella escrita.
-            </p>
-
-            el order list es el una lista ordenada en el que abre con ol, y acaba con /ol, la cual cada elemento interno de la lista es un li.
-            <ol>
-                <li>
-                    como este por ejemplo que abre con li, y como todas las etiquetas se cierran con /.
-                </li>
-                <li>
-                    aqui hay otro elemento de la lista
-                </li>
-                <li>
-                    y aqui el tercer elemento
-                </li>    
-            y ya aqu cerramos el order list      
-            </ol>
+ el order list es el una lista ordenada en el que abre con ol, y acaba con /ol, la cual cada elemento interno de la lista es un li.
+```<ol>
+    <li>
+        como este por ejemplo que abre con li, y como todas las etiquetas se cierran con /.
+    </li>
+    <li>
+        aqui hay otro elemento de la lista
+    </li>
+    <li>
+        y aqui el tercer elemento
+    </li>    
+        y ya aqu cerramos el order list      
+</ol>```
 
 a parte de ol se puede hacer como Unorder list(ul).
 o si quiero hacer una lista dentro de otra lista seria lo mismo, haciendo un ol, con la otra lista añadida identada.
@@ -144,13 +141,8 @@ como por ejemplo:
 ```
 
 br es una etiqueta pra dejar un salto o espacio
-```
-<br>
-```
- 
-
-```
-<a href="google.com" alt="Por aqui se va a google" target="_blank">aqui dentro va lo que queremos que salga en pantalla</a>```
+```<br>```
+```<a href="google.com" alt="Por aqui se va a google" target="_blank">aqui dentro va lo que queremos que salga en pantalla</a>```
 esto es texto con un enlace a la pagina que se poga, y se escribe con la etiqueta ```<a href=""></a>```
 El alt: srive para poner un texto que aparezca cuando nos ponemos encima del enlace sin clicar
 El target_blank: indica que cuando abras/se clique ese enlace, se abra en otra pestaña diferente a en la que se clica de la pagina.
@@ -166,30 +158,22 @@ Esta etiqueta es una cita, (es una frase de alguien ajeno)
 para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen,
 ```<img src="hasbulla-money.gif">```
 
-
-
-Para usar un icono de una web como por ejemplo fontawesomehay que linkear en el head el <script src="https://kit.fontawesome.com/06d159bd36.js" crossorigin="anonymous"></script> Escribimos este link/script que nos ha dado la pagina para poder enlazar nuestra pagina para enlaza y linkear cosas de esta, como poer ejemplo podriamos poner para poner un icono o una fuente lo siguiente:<i class="fa-solid fa-dog">codigo enlazado desde fontawesome</i> 
+Para usar un icono de una web como por ejemplo fontawesomehay que linkear en el head el ```<script src="https://kit.fontawesome.com/06d159bd36.js" crossorigin="anonymous"></script>``` Escribimos este link/script que nos ha dado la pagina para poder enlazar nuestra pagina para enlaza y linkear cosas de esta, como poer ejemplo podriamos poner para poner un icono o una fuente lo siguiente:```<i class="fa-solid fa-dog">codigo enlazado desde fontawesome</i>``` 
 
 
 para poner una foto se pone
 ```<img src="(ubicacion de la foto)" alt="Imgen de planeta">```
-
-
-
-
 para ir a alguna parte dentro de la propia pagina
 añadir un id a la parte qu queramos ir a ver(el destino)
 añadimos por ejemplo un titulo que queremos que sirva como enlace para ir a ver el destino(origen)
 
-```
-< h3 id=inicio>
-<a href="#inicio">aqui me envia al titulo h3</a>
-```
+```< h3 id=inicio>```
+```<a href="#inicio">aqui me envia al titulo h3</a>```
 
 
 en el  caso que queramos poner una tabla se pone lo siguiente:
-```
-<table border="2px" >
+
+```<table border="2px">
     <thead>
         <tr>
             <th>123</th>
@@ -207,8 +191,8 @@ en el  caso que queramos poner una tabla se pone lo siguiente:
     <tfoot>
 
     </tfoot>
-</table>
-```
+</table>```
+
 en el que table es la etiqueta de la tabla general, tr son las filas en la que escribirmos th por cada columna que quieras poner con el dato a mostrar dentro, si quieres puedes poner un thead o tfoot para hacer un encabezado o un pie de tabla, sino si solo se quiere hacer una tabla sin nada mas, se hace en el tbody.
 
 
