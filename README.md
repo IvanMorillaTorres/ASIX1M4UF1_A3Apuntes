@@ -111,7 +111,7 @@ estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con e
 
  el order list es el una lista ordenada en el que abre con ol, y acaba con /ol, la cual cada elemento interno de la lista es un ```<li>```.
 
-```<ol>```
+```<ol>
     <li>
         como este por ejemplo que abre con li, y como todas las etiquetas se cierran con /.
     </li>
@@ -121,7 +121,7 @@ estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con e
     <li>
         y aqui el tercer elemento
     </li>y ya aqu cerramos el order list      
-```</ol>```
+</ol>```
 
 a parte de ol se puede hacer como Unorder list(ul).
 o si quiero hacer una lista dentro de otra lista seria lo mismo, haciendo un ol, con la otra lista añadida identada.
