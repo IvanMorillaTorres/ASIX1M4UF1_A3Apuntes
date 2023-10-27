@@ -1,7 +1,1 @@
-git clone "link"    (Lo hemos tenido que haber creado en github antes el link)
-Esto es para subir algo nuevo
-
-git init
-git add NOMBREARCHIVO    (para guardar/sincronizar un solo archivo) y si pongo un punto al final me selecciona para sincronizar todo
-git commit -m ""   	(actualización de apuntes)(Las comillas son para añadir un comentario sobre lo que s sube o lo que se ha hecho.)
-git push origin main     (subeme los archivos de origin de mi ordenador a main de github)
+git clone "link"
