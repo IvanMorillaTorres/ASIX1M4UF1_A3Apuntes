@@ -109,8 +109,9 @@ justo aqui empieza el body, que es el cuerpo de la pagina
 estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con ella escrita.
 ```<p> </p>```
 
- el order list es el una lista ordenada en el que abre con ol, y acaba con /ol, la cual cada elemento interno de la lista es un li.
-```<ol>
+ el order list es el una lista ordenada en el que abre con ol, y acaba con /ol, la cual cada elemento interno de la lista es un ```<li>```.
+
+```<ol>```
     <li>
         como este por ejemplo que abre con li, y como todas las etiquetas se cierran con /.
     </li>
@@ -119,14 +120,13 @@ estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con e
     </li>
     <li>
         y aqui el tercer elemento
-    </li>    
-        y ya aqu cerramos el order list      
-</ol>```
+    </li>y ya aqu cerramos el order list      
+```</ol>```
 
 a parte de ol se puede hacer como Unorder list(ul).
 o si quiero hacer una lista dentro de otra lista seria lo mismo, haciendo un ol, con la otra lista añadida identada.
 como por ejemplo:
-```
+
 <ol>
     <li>
         
