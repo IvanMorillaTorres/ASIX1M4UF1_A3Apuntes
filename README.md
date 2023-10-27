@@ -172,7 +172,7 @@ Para usar un icono de una web como por ejemplo fontawesomehay que linkear en el 
 
 
 para poner una foto se pone
-<img src="(ubicacion de la foto)" alt="Imgen de planeta">
+```<img src="(ubicacion de la foto)" alt="Imgen de planeta">```
 
 
 
@@ -183,8 +183,34 @@ añadimos por ejemplo un titulo que queremos que sirva como enlace para ir a ver
 
 ```
 < h3 id=inicio>
-<a href="#inicio">aqui me envia al titulo h3</a>`
+<a href="#inicio">aqui me envia al titulo h3</a>
 ```
+
+
+en el  caso que queramos poner una tabla se pone lo siguiente:
+```
+<table border="2px" >
+    <thead>
+        <tr>
+            <th>123</th>
+            <th>234</th>
+            <th>345</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>qwe</th>
+            <th>wer</th>
+            <th>ert</th>
+        </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+```
+en el que table es la etiqueta de la tabla general, tr son las filas en la que escribirmos th por cada columna que quieras poner con el dato a mostrar dentro, si quieres puedes poner un thead o tfoot para hacer un encabezado o un pie de tabla, sino si solo se quiere hacer una tabla sin nada mas, se hace en el tbody.
+
 
 
 
