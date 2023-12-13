@@ -229,3 +229,11 @@ un ejemplo podia ser:
     color: blue;
 }```
 
+
+
+Hijos y padre para dar formato:
+si solo quiero que afecte a hijos que son por ejemplo strong de un li.
+se podria en el css tal que así:
+li > strong{
+    y lo que queramos editar.
+}
