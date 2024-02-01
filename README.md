@@ -298,7 +298,7 @@ Las media queries son una forma de aplicar estilos de CSS específicos para dife
 ejemplo: 
 ```css
 @media only screen and (max-width: 600px) {
-    /* Estilos para pantallas más pequeñas */
+    
 }
 
 
