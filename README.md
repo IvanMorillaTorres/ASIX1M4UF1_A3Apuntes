@@ -278,7 +278,7 @@ A veces, un div puede tener otros divs dentro. Es como poner cajas dentro de caj
 Y todas las clases, divs y etiquetas se pueden modificar para cambiar color, forma, tamaño, comportamientos, etc. El cambio más fácil puede ser cambiar el color de fondo, hacerlo más grande, etc., pero una de las cosas más útiles podría ser modificarles el border, margin y padding. Básicamente, sirve para poder posicionarlos de forma que plazca a la hora de hacer la página web.
 
 
-#### Tipos de añadidos externos
+###### Tipos de añadidos externos
 
 fontawesome por ejemplo 
 
@@ -288,11 +288,12 @@ pero nunca modificar las class que traen, o si se modifican ver que no se solape
 Y referenciar bien la ubicacion en caso que sea una imagen o video.
 
 
-#### Diseño responsive
+###### Diseño responsive
 
 El diseño responsive es una técnica de diseño web que busca proporcionar una experiencia de usuario óptima independientemente del dispositivo que se esté utilizando, como ordenadoresm, tablet o móviles.
 
-## Media Queries
+
+###### Media Queries
 
 Las media queries son una forma de aplicar estilos de CSS específicos para diferentes tamaños de pantalla. Para agregar reglas de estilo condicionales basadas en características como el ancho de la pantalla.
 ejemplo: 
