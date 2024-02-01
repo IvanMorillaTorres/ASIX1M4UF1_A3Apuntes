@@ -10,6 +10,16 @@ cada vez que queramos crear una nueva carpeta para subir archivos, debemos ir a 
 
 Repositorio de apuntes y todo
 
+Seguidamente entramos a la carpeta que queramos subir o donde queramos clonar una del github.
+
+si es clonar escribimos Git clone (link que cogemos de la web)
+
+si queremos subir actualizaciones primero vamos dentro de la carpeta y hacemos:
+1.  git init
+2.  git add .
+3.  git commit -m "comentario que queramos"
+4.  git push origin main 
+
 ###### Primer capitulo: MARKDOWN
 
 formatos de texto
@@ -249,6 +259,52 @@ li > strong{
 enlaces de css existen mediante : archivo externo,en un style en el head, o en un style en la propia linea de codigo html.
 
 
+
+DIVS:
+
+<div> es como una caja que puedes poner en tu página web. Sirve para agrupar cosas juntas.
+Identificación con ID:
+
+Puedes darle un nombre especial al div usando ID. Ayuda a decirle al div que es único.
+
+Clases para Agrupar Estilos:
+
+La clase es un atributo que le pones a una etiqueta o div, y puedes darles la misma "clase", para que se puedan modificar todos a la vez.
+
+Anidamiento de Divs:
+
+A veces, un div puede tener otros divs dentro. Es como poner cajas dentro de cajas.
+
+Y todas las clases, divs y etiquetas se pueden modificar para cambiar color, forma, tamaño, comportamientos, etc. El cambio más fácil puede ser cambiar el color de fondo, hacerlo más grande, etc., pero una de las cosas más útiles podría ser modificarles el border, margin y padding. Básicamente, sirve para poder posicionarlos de forma que plazca a la hora de hacer la página web.
+
+
+#### Tipos de añadidos externos
+
+fontawesome por ejemplo 
+
+En cualquiera de los casos trata basicamente en poner el link de referencia en el head y en el caso de necesitar javascript la pagina que se usa, pues copiar el link en el final del body.
+A la hora del uso es necesario poner las class que se indiquen en la web a usar, o copiar el codigo y modificarlo para su uso .
+pero nunca modificar las class que traen, o si se modifican ver que no se solape algo de lo que se escriba con el codigo de la pàgina.
+Y referenciar bien la ubicacion en caso que sea una imagen o video.
+
+
+#### Diseño responsive
+
+El diseño responsive es una técnica de diseño web que busca proporcionar una experiencia de usuario óptima independientemente del dispositivo que se esté utilizando, como ordenadoresm, tablet o móviles.
+
+## Media Queries
+
+Las media queries son una forma de aplicar estilos de CSS específicos para diferentes tamaños de pantalla. Para agregar reglas de estilo condicionales basadas en características como el ancho de la pantalla.
+ejemplo: 
+```css
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas más pequeñas */
+}
+
+
+Imágenes que se autoadaptes
+
+Asegúrate de que las imágenes sean adaptables al tamaño de la pantalla utilizando el atributo max-width: 100%; en CSS. Esto evitará que las imágenes se salgan del contenedor en pantallas más pequeñas.
 
 
 
