@@ -1,5 +1,13 @@
 # ASIX1M4UF1_A3Apuntes
 
+
+###### Aplicación :GITHUB
+
+creamos cuenta de github(no hay que ser una bestia de la informatica asique lo doy por hecho).
+y descargamos en instalamos el GIT (https://git-scm.com/download/win).
+
+cada vez que queramos crear una nueva carpeta para subir archivos, debemos ir a mis repositorios, new repository, y en el menú pondremos el nombre que queramos ponerle, a continuación vamos al cmd del git(boton windows y escribimos git) y dentro vamos a la carpeta donde queramos guardar las carpetas, es decir hacemos un cd y nos situamos en el disoc duro c por ejemplo
+
 Repositorio de apuntes y todo
 
 ###### Primer capitulo: MARKDOWN
@@ -83,7 +91,6 @@ En un leguaje de marcas empieza con una etiqueta que se escribe entre <> y para 
 
 la sintaxi basica es, <img href = ""> basicamente es , etiqueta atributo y información del atributo.
 
-
 Aqui definimos el tipo de pagina que hacemos para decirselo al navegador
 ```<!DOCTYPE html>```
 
@@ -142,12 +149,8 @@ El alt: srive para poner un texto que aparezca cuando nos ponemos encima del enl
 El target_blank: indica que cuando abras/se clique ese enlace, se abra en otra pestaña diferente a en la que se clica de la pagina.
 
 ```<hr>``` sirve para poner una linea horizontal 
-
-
 Esta etiqueta es una cita, (es una frase de alguien ajeno)
 ```<blockquote></blockquote>```
-
-
 
 para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen,
 ```<img src="hasbulla-money.gif">```
@@ -185,6 +188,7 @@ en el  caso que queramos poner una tabla se pone lo siguiente:
     </tfoot>
 </table>```
 
+
 en el que table es la etiqueta de la tabla general, tr son las filas en la que escribirmos th por cada columna que quieras poner con el dato a mostrar dentro, si quieres puedes poner un thead o tfoot para hacer un encabezado o un pie de tabla, sino si solo se quiere hacer una tabla sin nada mas, se hace en el tbody.
 </body>
 </html>
@@ -204,6 +208,10 @@ en el que table es la etiqueta de la tabla general, tr son las filas en la que e
 3. Archivo externo
 
 Puntos/cosas idividuales: Si solo se quiere poner algo exclusivamente en una parte se puede hacer individualmente.
+
+
+
+style (en la misma hoja);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 
 Las hojas css/ archivo externo, sirve para todas las paginas de todo el sitio web.
 
@@ -228,12 +236,19 @@ un ejemplo podia ser:
 ```*{
     color: blue;
 }```
-
-
-
++
 Hijos y padre para dar formato:
 si solo quiero que afecte a hijos que son por ejemplo strong de un li.
 se podria en el css tal que así:
 li > strong{
     y lo que queramos editar.
 }
+
+4 tipos importantes: etiqueta, clase, id, universal
+
+enlaces de css existen mediante : archivo externo,en un style en el head, o en un style en la propia linea de codigo html.
+
+
+
+
+
