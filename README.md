@@ -300,7 +300,7 @@ ejemplo:
 @media only screen and (max-width: 600px) {
     
 }
-
+```
 
 Imágenes que se autoadaptes
 
